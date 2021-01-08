@@ -1,0 +1,15 @@
+﻿@model int  
+    <div class="col-12 col-sm-6 col-md-3">
+        <div class="info-box">
+            <span class="info-box-icon  @ViewData["class_"+Model.ToString()] elevation-1"><i class=" @ViewData["icon_"+Model.ToString()]"></i></span>
+
+            <div class="info-box-content">
+                <span class="info-box-text"> @ViewData["text_" + Model.ToString()]</span>
+                <span class="info-box-number">
+                    @ViewData["number_" + Model.ToString()]<small>%</small>
+                </span>
+            </div>
+            <!-- /.info-box-content -->
+        </div>
+        <!-- /.info-box -->
+    </div>

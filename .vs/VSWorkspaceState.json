@@ -1,8 +1,14 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Admin"
+    "\\Admin",
+    "\\Admin\\Controllers",
+    "\\Admin\\Models",
+    "\\Admin\\Views",
+    "\\Admin\\Views\\Home",
+    "\\Admin\\Views\\Shared",
+    "\\Admin\\wwwroot"
   ],
-  "SelectedNode": "\\Admin",
+  "SelectedNode": "\\Admin\\Views\\Shared\\_Layout.cshtml",
   "PreviewInSolutionExplorer": false
 }
